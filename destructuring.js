@@ -52,10 +52,12 @@ class Vaccination {
       place: this.place,
     };
   }
+
+  calculateArea = (a = 0, b = 0) => a * b;
 }
 
 let fDose = new Vaccination("Pfizer", "18 August 2022", "RWJ");
-// console.log(fDose.getSchedule());
+console.log(fDose.calculateArea(1, 2));
 
 // class CalculateArea{
 
